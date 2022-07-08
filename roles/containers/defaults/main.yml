@@ -1,0 +1,4 @@
+---
+# set global variable
+docker_compose: true
+

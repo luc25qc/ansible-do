@@ -1,0 +1,8 @@
+---
+# This file describe groups of servers(hosts) and assigned roles.
+
+- hosts: host_config
+  roles:
+    - prerequis
+    - docker
+    - containers
