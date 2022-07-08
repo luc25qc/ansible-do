@@ -2,7 +2,7 @@ all:
   vars:
     ansible_user: root
   children:
-    inmedia_app:
+    host_config:
       hosts:
-        localhost:
-          tomcat_version: "8.5.81"
+        ubuntu_do:
+          docker_compose: true
